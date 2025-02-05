@@ -1,8 +1,8 @@
+import "express-async-errors"
 import express, { Application } from "express";
 import userRoutes from "./routes/users.routes"
 import loginRoutes from "./routes/login.routes"
-import "express-async-errors"
-import  handleErrors  from "./errors/handleErrors";
+import handleErrors from "./errors/handleErrors";
 
 
 const app: Application = express();

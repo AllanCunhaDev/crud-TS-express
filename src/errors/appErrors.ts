@@ -1,4 +1,3 @@
-import { ZodError } from "zod";
 
 class AppError extends Error {
 
